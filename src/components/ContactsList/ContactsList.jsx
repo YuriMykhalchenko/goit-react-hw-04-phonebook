@@ -18,6 +18,6 @@ ContactsList.propTypes = {
   name: PropTypes.string,
   number: PropTypes.string,
   id: PropTypes.string,
-  contacts: PropTypes.array.isRequired,
+  contacts: PropTypes.array,
   removeContact: PropTypes.func,
 };
