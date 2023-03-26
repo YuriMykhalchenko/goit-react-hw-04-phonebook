@@ -62,9 +62,9 @@ export function Phonebook({ initialContacts, initialFilter }) {
 }
 
 Phonebook.propTypes = {
+  initialContacts: PropTypes.array.isRequired,
+  initialFilter: PropTypes.string.isRequired,
   name: PropTypes.string,
   number: PropTypes.string,
   id: PropTypes.string,
-  initialContacts: PropTypes.array.isRequired,
-  initialFilter: PropTypes.string.isRequired,
 };
