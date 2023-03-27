@@ -64,6 +64,9 @@ export function ContactForm({ dataContacts }) {
 }
 ContactForm.propTypes = {
   dataContacts: PropTypes.func,
+  handleChangeInput: PropTypes.func,
+  resetForm: PropTypes.func,
+  handleFormSubmit: PropTypes.func,
   name: PropTypes.string,
   number: PropTypes.string,
 };
